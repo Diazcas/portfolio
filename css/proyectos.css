@@ -1,0 +1,47 @@
+@font-face {
+  font-family: "Allison";
+  src: url("../fonts/Allison/Allison-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Pacifico";
+  src: url("../fonts/Pacifico/Pacifico-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Merienda";
+  src: url("../fonts/Merienda/Merienda-Regular.ttf") format("truetype");
+}
+
+body {
+  margin: 0;
+  background-image: url('../img/fondoG.png');
+  overflow: hidden;
+  display: flex;
+  font-family: "Pacifico", cursive;
+}
+
+#secciones {
+  width: 1300px;
+  align-items: center;
+  margin: auto;
+}
+
+.card {
+  width: 500px;
+  height: 300px;
+  border: 1px solid black;
+  float: left;
+  margin: 30px 60px;
+  background-color: cornsilk;
+  box-shadow: 3px 3px 15px black;
+}
+
+.card:nth-child(2),
+.card:nth-child(4) {
+  width: 500px;
+  height: 300px;
+  border: 1px solid black;
+  float: left;
+  background-color: black;
+}
